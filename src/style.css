@@ -4,6 +4,7 @@
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+
 h1,
 h2,
 h3 {
@@ -11,7 +12,7 @@ h3 {
 }
 
 h1 {
-    font-size: 96px !important;
+    font-size: 96px!important;
 }
 
 h2 {
@@ -95,3 +96,24 @@ background: var(--primary-color);
 box-shadow: var(--box-shadow);
 color: white;
 }
+
+@media (max-width: 576px){
+    h1 {
+        font-size: 48px !important;
+        line-height: 1.5;
+    }
+    h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+    .project-link {
+        display: block;
+        text-align: center;
+        margin: 0 20px;
+    }
+}
+
