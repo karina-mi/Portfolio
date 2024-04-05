@@ -18,6 +18,10 @@ h6 {
     text-align: center;
 }
 
+.content h1 {
+    font-size: 64px!important;
+}
+
 h1 {
     font-size: 96px !important;
     line-height: 1.5;
@@ -82,7 +86,10 @@ nav a {
     font-weight: 500;
 }
 
-nav a:hover,
+nav a:hover{
+    color: var(--primary-color);
+}
+
 nav li.active a {
     color: var(--primary-color);
 }
@@ -235,6 +242,10 @@ footer .social-links a{
 footer .social-links a:hover {
     color: white;
     background-color: var(--primary-color);
+}
+
+.contact-btn {
+text-align: start;
 }
 
 .contact {
